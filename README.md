@@ -11,6 +11,9 @@ en formato XML desde la página Lista de clientes.
 - **CustomerList.PageExt.al** - Extensión de la página Lista de clientes con la acción de exportar
 - **Customers.xml** - Ejemplo de exportación generado
 
+## Cambios respecto al enunciado
+- La acción addafter("&Customer") del enunciado no me funcionaba en BC por lo que he sustituido por addlast(processing) para que aparezca en el menú Acciones.
+
 ## Configuración
 - Runtime: 16.1
 - Application: 27.0.0.0
